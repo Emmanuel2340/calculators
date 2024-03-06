@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(34, 4, 4, 0.175);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+.div{
+    background-color: black;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+}
+.views{
+    width: 255px;
+    background-color: black;
+    box-shadow: -8px, 0, 0, 3px;
+    overflow:hidden;
+    border-radius: 6px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.view{
+    width: 255px;
+    background-color: rgba(241, 214, 166, 0.209);
+    box-shadow: -8px, 0, 0, 3px;
+    overflow:hidden;
+    border-radius: 6px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1rem;
+    outline: none;
+    border: none;
+}
+
+
+.hidden{
+    width: 255px;
+    background-color: rgba(241, 214, 166, 0.209);
+    box-shadow: -8px, 0, 0, 3px;
+    overflow:hidden;
+    border-radius: 6px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1rem;
+    /* display: none; */
+}
+
+
+.button-rapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section button{
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    padding: auto;
+    border: none;
+}
+.plus{
+    height:85px;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.273);
+}
+
+.e1{
+    margin-top: -2.8rem;
+    margin-right: 4rem;
+    background-color: rgba(0, 0, 255, 0.34);
+    color: white;
+}
+.e2{
+    margin-top: -2.8rem;
+    margin-right: 4rem;
+    background-color: rgba(128, 0, 128, 0.273);
+    color: white;
+}
+.e3{
+    margin-top: -3.1rem;
+    margin-right: 4rem;
+    background-color: rgba(0, 0, 255, 0.34);
+    color: white;
+}
+.op{
+    background-color: rgba(0, 0, 255, 0.34);
+    color: white;
+}
+.clear, .clears{
+    background-color: rgba(128, 0, 128, 0.273);
+    color: white;
+}
+.clearAll{
+    color: white;
+    background-color: rgba(128, 0, 128, 0.273);
+
+}
