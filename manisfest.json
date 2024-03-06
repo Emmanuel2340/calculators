@@ -1,0 +1,25 @@
+{
+    "name":"CJ Calculator",
+    "short_name":"Calculator",
+    "icons": [
+        {
+          "src": "./assets/calculator.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        },
+        {
+          "src": "./assets/calculator.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        },
+        {
+          "src": "./assets/calculator.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ],
+      "theme_color":"#ffffff",
+      "start_url": "/",
+      "display": "standalone",
+      "orientation":"portrait"
+}
